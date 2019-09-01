@@ -1,0 +1,177 @@
+
+*{
+
+    box-sizing: border-box;
+}
+
+.container-fluid{
+
+    height: 800px;
+    background-color: rgb(223, 175, 212);
+    
+}
+.container{
+
+ height: 800px;
+ background-color: white;
+ border: 1px #fff solid;
+ 
+ 
+}
+
+#head{
+
+
+    text-align: center;
+    margin-bottom: 15px;
+    border: 5px solid #222;
+    background-color: aqua;
+    color: #0000ff;
+    padding-bottom: 12px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+#screen{
+
+width: 820px;
+height: 540px;
+background-color: #222;
+margin-left: 15px;
+float: left;
+margin-top: 20px;
+position: absolute;
+
+
+
+
+}
+#side{
+
+width: 20%;
+height: 540px;
+background-color: #cfbac6;
+float: right;
+margin-right: 25px;
+margin-top: -34px;
+
+}
+
+@keyframes spin { 
+    100% { transform:rotate(360deg); } 
+}
+
+
+#click{
+
+background-color: #b2b2fc;
+width: 80px;
+text-align: center;
+padding-bottom: 8px;
+font-size: 13px;
+font-weight: bold;
+padding-left: 5px;
+padding-right: 5px;
+margin-left: 22px;
+margin-top: 38px;
+position: relative;
+cursor: crosshair;
+animation: spin 0s linear infinite;
+
+
+}
+
+    
+ 
+/* 
+.spin{
+    
+    animation:spin 2s linear infinite;
+    
+    
+    
+}   */
+
+    
+    
+    
+
+
+
+
+
+
+
+.size{
+
+background-color: #fff;
+margin-left: 25px;
+margin-right: 25px;
+margin-bottom: 5px;
+padding-top: 5px;
+padding-right: 20px;
+padding-left: 8px;
+padding-bottom: 10px;
+font-style: inherit;
+font-weight: 600;
+line-height: 25px;
+
+}
+
+#siz{
+
+margin-top: 10px;
+}
+.col{
+
+color: #d42323;
+font-weight: bold;
+margin-left: -13px;
+
+
+
+
+
+}
+
+#last{
+
+
+background-color: #fff;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 8px;
+padding-right: 30px;
+padding-left: 3px;
+font-style: inherit;
+font-weight: 600;
+}
+
+.small{
+
+
+color: #d42323;
+font-weight: 900;
+line-height: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.num{
+
+font-size: 13px;
+font-weight: bold;
+color: #d42323;
+
+
+
+} 
+.num:hover{
+
+   background-color:#08080f;
+   color: #52e088;
+   
+}
